@@ -1,0 +1,14 @@
+﻿using CQRSDesignPattern.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CQRSDesignPattern.Commands
+{
+    public interface IEmployeeCommands
+    {
+        void SaveEmployeeData(Employee employee);
+    }
+}
